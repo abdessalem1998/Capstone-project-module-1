@@ -2,3 +2,16 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#upper-nav {
+  height:35px;
+  background-color:#3e3e3e
+}
+
+.nav-icon {
+  height:20px;
+}
+
+.nav-logo {
+  height:50px;
+}
