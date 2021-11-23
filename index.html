@@ -8,62 +8,79 @@
     <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
-    <!--navbar section-->
-    <!--upper navbar section-->
-    <nav class="navbar navbar-expand-md navbar-light border-bottom border-secondary d-md-block d-none" id="upper-nav">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5">
-          <ul class="navbar-nav pe-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><img src="images-icons/icons/facebook.svg" class="nav-icon" alt="facebook"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="#"><img src="images-icons/icons/twitter.svg" class="nav-icon" alt="twitter"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">English</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">My Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light pe-5" href="#">Logout</a>
-            </li>
-          </ul>
+
+    <!--Header section-->
+    <header class="container-fluid" id="header">
+      <!--navbar section-->
+      <!--upper navbar section-->
+      <nav class="navbar navbar-expand-md navbar-light border-bottom border-secondary d-md-block d-none" id="upper-nav">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5">
+            <ul class="navbar-nav pe-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images-icons/icons/facebook.svg" class="nav-icon" alt="facebook"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#"><img src="images-icons/icons/twitter.svg" class="nav-icon" alt="twitter"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">English</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">My Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-5" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--lower navbar section-->
+      <nav class="navbar navbar-expand-md navbar-light border-md-none border-bottom">
+        <div class="container-fluid px-0 px-md-5 ">
+          <a class="navbar-brand text-light ps-5 ms-5 d-md-block d-none" href="#"><img src="images-icons/images/logo.png" class="nav-logo" alt="twitter"></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav-btn"></span>
+          </button>
+          <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5 fw-bold">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5 pt-3">
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link text-warning" href="#">About</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Program</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Join</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Spensor</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item pe-5 ">
+                <a class="nav-link border border-warning border-5"  href="#">ISC Club</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--header section-->
+      <div class="container-fluid px-5">
+        <div class="row py-5 px-md-5 px-0"  id="header-row">
+          <div class="col-12  px-md-5 px-0">
+            <h2 class="text-warning">>>"Hello World!"</h2>
+            <h1 class="fw-bolder" id="header-h1">ELECTRONICS STUDENT CLUB<br>Open Code Session<br> 2022</h1>
+            <p class="fw-normal border border-white px-3 py-3 border-5 w-50 mw-100 " id="header-p">the ISC open code section welcome any student application from all the universities starting from december</p>
+            <p class="fs-2 fw-bolder">2021-11-30 ~ 2021-12-15</p>
+            <p class="fs-3">@IGEE ex INELEC</p>
+          </div>
         </div>
       </div>
-    </nav>
-    <!--lower navbar section-->
-    <nav class="navbar navbar-expand-md navbar-light border-bottom ">
-      <div class="container-fluid px-5 ">
-        <a class="navbar-brand text-light ps-5 ms-5 d-md-block d-none" href="#"><img src="images-icons/images/logo.png" class="nav-logo" alt="twitter"></a>
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon nav-btn"></span>
-        </button>
-        <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5 fw-bold">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5 pt-3">
-            <li class="nav-item me-3 pe-5">
-              <a class="nav-link text-warning" href="#">About</a>
-            </li>
-            <li class="nav-item me-3 pe-5">
-              <a class="nav-link" href="#">Program</a>
-            </li>
-            <li class="nav-item me-3 pe-5">
-              <a class="nav-link" href="#">Join</a>
-            </li>
-            <li class="nav-item me-3 pe-5">
-              <a class="nav-link" href="#">Spensor</a>
-            </li>
-            <li class="nav-item me-3 pe-5">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item pe-5 ">
-              <a class="nav-link border border-warning border-5"  href="#">ISC Club</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+
+    </header>
 
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
