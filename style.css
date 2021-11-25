@@ -61,3 +61,43 @@ body {
 #main-program h3 {
   color: #ec5242;
 }
+
+.speaker1 {
+  border-style: dashed;
+  border-color: #272a31;
+  border-width: 10px 0 0 0;
+}
+
+.speaker2 {
+  border-style: dashed;
+  border-color: #d3d3d3;
+  border-width: 10px 0 0 0;
+}
+
+.image-speaker {
+  height: 200px;
+  width: 200px;
+  margin-left: -12px;
+}
+
+.speaker-p {
+  color: #ec5242;
+}
+
+.speaker-p2 {
+  color: #d3d3d3;
+}
+
+.speaker-hr {
+  color: #d3d3d3;
+  height: 4px;
+  width: 10%;
+  margin-left: 10px;
+}
+
+#featured-speakers hr {
+  color: #d3d3d3;
+  height: 4px;
+  width: 10%;
+  margin-left: 10px;
+}
