@@ -25,23 +25,24 @@ body {
 }
 
 #header {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('images-icons/images/background.jpg');
+  background-image: linear-gradient(rgba(211, 211, 211, 0.2), rgba(211, 211, 211, 0.2));
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #header-row {
-  background-image: linear-gradient(rgba(236, 238, 244, 0.8), rgba(236, 238, 244, 0.8)), url('images-icons/icons/background-icon-6.svg'), linear-gradient(rgba(236, 238, 244, 0.8), rgba(236, 238, 244, 0.8)), url('images-icons/icons/background-icon-3.svg'), linear-gradient(rgba(236, 238, 244, 0.5), rgba(236, 238, 244, 0.5)), url('images-icons/icons/background-icon-4.svg');
+  width: 75%;
+  background-image: linear-gradient(rgba(211, 211, 211, 0.15), rgba(211, 211, 211, 0.15)), url('images-icons/icons/background-icon-6.svg'), linear-gradient(rgba(211, 211, 211, 0.15), rgba(211, 211, 211, 0.15)), url('images-icons/icons/background-icon-3.svg'), linear-gradient(rgba(211, 211, 211, 0.15), rgba(211, 211, 211, 0.15)), url('images-icons/icons/background-icon-4.svg');
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 50px 50px, 50px 50px, 50px 50px, 50px 50px, 100px 100px, 100px 100px;
   background-position: 90% 30%, 90% 30%, 65% 3%, 65% 3%, 50% 50%, 50% 50%;
 }
 
-#header-h1 {
-  color: rgba(255, 202, 125, 1);
-  text-shadow: 0 0 3px #f00, 0 0 5px red;
+.header-h1 {
+  color: rgba(236, 82, 66);
+  text-shadow: 0 0 3px #f22, 0 0 3px orange;
 }
 
 #header-p {
-  background-color: #eceef4;
+  background-color: #fff;
 }
