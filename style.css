@@ -95,9 +95,15 @@ body {
   margin-left: 10px;
 }
 
-#featured-speakers hr {
+.speakers hr {
   color: #d3d3d3;
   height: 4px;
   width: 10%;
   margin-left: 10px;
+}
+
+#hr-featured-speakers {
+  color: #ec5242;
+  height: 2px;
+  width: 5%;
 }
