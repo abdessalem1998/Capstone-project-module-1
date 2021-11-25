@@ -107,3 +107,26 @@ body {
   height: 2px;
   width: 5%;
 }
+
+.upper-footer {
+  background-color: #272a31;
+}
+
+#hr-footer {
+  color: #ec5242;
+  height: 2px;
+  width: 5%;
+}
+
+.lower-footer {
+  background-color: #fff;
+}
+
+.footer-logo {
+  height: 200px;
+  width: 300px;
+}
+
+#isc {
+  color: #ec5242;
+}
