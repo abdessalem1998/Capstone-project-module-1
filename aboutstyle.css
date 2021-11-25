@@ -8,6 +8,14 @@ body {
   background-color: #3e3e3e;
 }
 
+#about-link {
+  color: #ec5242;
+}
+
+#isc-club {
+  border: 5px solid #ec5242;
+}
+
 .nav-icon {
   height: 20px;
 }
