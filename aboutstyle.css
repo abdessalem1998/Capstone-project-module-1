@@ -50,3 +50,23 @@ body {
 #link-header {
   color: black;
 }
+
+.hr-featured-speakers {
+  color: #ec5242;
+  height: 2px;
+  width: 5%;
+}
+
+.logo-p {
+  color: #d3d3d3;
+}
+
+#logo-logo {
+  width: 300px;
+  height: 250px;
+}
+
+.back-event {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.9), rgba(236, 82, 66, 0.9)), url('images-icons/images/background.jpg');
+  height: 250px;
+}
