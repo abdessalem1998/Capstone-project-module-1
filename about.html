@@ -4,11 +4,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutstyle.css">
     <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
-    <h1>About Page</h1>
+    <!--Header section-->
+    <header class="container-fluid px-0" id="header">
+      <!--navbar section-->
+      <!--upper navbar section-->
+      <nav class="navbar navbar-expand-md navbar-light border-bottom border-secondary d-md-block d-none me-0" id="upper-nav">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5">
+            <ul class="navbar-nav pe-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images-icons/icons/facebook.svg" class="nav-icon" alt="facebook"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#"><img src="images-icons/icons/twitter.svg" class="nav-icon" alt="twitter"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">English</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">My Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-5" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--lower navbar section-->
+      <nav class="navbar navbar-expand-md navbar-light border-md-none bg-white border-bottom">
+        <div class="container-fluid px-0 px-md-5 ">
+          <a class="navbar-brand text-light ps-5 ms-5 d-md-block d-none" href="#"><img src="images-icons/images/logo.png" class="nav-logo" alt="twitter"></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav-btn"></span>
+          </button>
+          <div class="collapse navbar-collapse position-absolute top-0 end-0 pe-5 fw-bold">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5 pt-3">
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link text-warning" href="about.html">About</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Program</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Join</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">Spensor</a>
+              </li>
+              <li class="nav-item me-3 pe-5">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item pe-5 ">
+                <a class="nav-link border border-warning border-5"  href="#">ISC Club</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
