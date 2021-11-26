@@ -34,7 +34,7 @@ const speakers = [{
   photo: 'images-icons/images/speaker6.jpg',
   job: 'CEO of PayPal',
   info: 'American business executive. He is president and CEO of PayPal, formerly serving as group president of enterprise growth at American Express',
-}
+},
 ];
 
 const h2 = document.createElement('h2');
