@@ -46,11 +46,30 @@ body {
 }
 
 @keyframes example {
-  0%   {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:200px; top:0px;}
-  75%  {left:0px; top:0px;}
-  100% {left:0px; top:0px;}
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 200px;
+    top: 0;
+  }
+
+  50% {
+    left: 200px;
+    top: 0;
+  }
+
+  75% {
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
 }
 
 #header-p {
