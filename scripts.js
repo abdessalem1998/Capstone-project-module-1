@@ -22,7 +22,20 @@ const speakers = [{
   photo: 'images-icons/images/speaker4.jpg',
   job: 'Co-founder of Amazon',
   info: 'Jeffrey Preston Bezos is an American entrepreneur, media proprietor, investor, and computer engineer. He is the founder and executive chairman of Amazon, where he previously served as the president and CEO.',
-}];
+},
+{
+  name: 'elon musk',
+  photo: 'images-icons/images/speaker5.jpg',
+  job: 'CEO and Chief Engineer at SpaceX',
+  info: 'Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO and Chief Engineer at SpaceX; early-stage investor, CEO and Product Architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI.',
+},
+{
+  name: 'Dan Schulman',
+  photo: 'images-icons/images/speaker6.jpg',
+  job: 'CEO of PayPal',
+  info: 'American business executive. He is president and CEO of PayPal, formerly serving as group president of enterprise growth at American Express',
+}
+];
 
 const h2 = document.createElement('h2');
 h2.classList.add('text-center');
@@ -56,7 +69,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   image.classList.add('me-3');
   image.classList.add('image-speaker');
   image.setAttribute('src', speakers[i].photo);
-  image.setAttribute('alt', 'bill');
+  image.setAttribute('alt', speakers[i].name);
 
   const div3 = document.createElement('div');
   div3.classList.add('row');
