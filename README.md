@@ -7,8 +7,8 @@ event
 ![gif for mobile view](./content/recording.gif) <br />
 ![gif for desktop view](./content/recording-d.gif)<br />
 
-Additional description about the project and its features.
-
+video description about the project and its features.
+https://www.loom.com/share/aca38f9442d94e5bb254d86966ea9ca2
 ## Built With
 
 - HTML5
@@ -40,7 +40,7 @@ Not required
 
 ## Authors
 
-👤 **Furkan Denizhan**
+👤 **Houfaf Abdessalem**
 
 - GitHub: [https://github.com/abdessalem1998]
 - LinkedIn: [https://twitter.com/HAbdssalem]
