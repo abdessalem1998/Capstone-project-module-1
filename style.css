@@ -40,6 +40,17 @@ body {
 .header-h1 {
   color: rgba(236, 82, 66);
   text-shadow: 0 0 3px #f22, 0 0 3px orange;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:0px;}
+  75%  {left:0px; top:0px;}
+  100% {left:0px; top:0px;}
 }
 
 #header-p {
